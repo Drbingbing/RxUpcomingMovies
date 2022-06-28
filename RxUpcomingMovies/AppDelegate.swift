@@ -10,10 +10,14 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        _ = DIContainer.shared
+        
+        let baseConfiguration: BaseConfiguration = PropertyListHelper.decode()
+        let remoteDataSource: RemoteDataSourceProrocol = DIContainer.shared.resolve()
+        remoteDataSource.configure(with: baseConfiguration.keys.apiKey, and: baseConfiguration.keys.readAccessToken)
+        
         return true
     }
 
