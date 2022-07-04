@@ -1,30 +1,38 @@
 PODS:
+  - Kingfisher (7.2.4)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - SwiftyJSON (5.0.1)
   - Swinject (2.8.1)
 
 DEPENDENCIES:
+  - Kingfisher
   - RxCocoa
   - RxSwift
+  - SwiftyJSON
   - Swinject
 
 SPEC REPOS:
   trunk:
+    - Kingfisher
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SwiftyJSON
     - Swinject
 
 SPEC CHECKSUMS:
+  Kingfisher: 2457be2121734e69e54a2312ecc0150eb9ae70b3
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
-PODFILE CHECKSUM: 5eda55d1a9f5776f913515df05dc60d36756684c
+PODFILE CHECKSUM: c746035f8661455312b29bb0bc00d6864c6ef05c
 
 COCOAPODS: 1.11.3

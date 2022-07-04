@@ -10,4 +10,6 @@ import Foundation
 protocol RemoteDataSourceProrocol {
     
     func configure(with apiKey: String, and readAccessToken: String)
+    
+    func networkDependencies() -> NetworkDependenciesProtocol
 }

@@ -9,6 +9,8 @@ target 'RxUpcomingMovies' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Swinject'
+  pod 'SwiftyJSON'
+  pod 'Kingfisher'
   
   target 'RxUpcomingMoviesTests' do
     inherit! :search_paths

@@ -18,7 +18,11 @@ final class DIContainer {
     init() {
         assembler = Assembler(
             [
-                DataSourceAssembly()
+                DataSourceAssembly(),
+                ProvdierAssembly(),
+                HandlerAssembly(),
+                UpcomingMoviesAssembly(),
+                SplashAssembly()
             ],
             container: container)
     }

@@ -13,4 +13,8 @@ final class RemoteDataSource: RemoteDataSourceProrocol {
     func configure(with apiKey: String, and readAccessToken: String) {
         NetworkConfiguration.shared.configure(with: apiKey, and: readAccessToken)
     }
+    
+    func networkDependencies() -> NetworkDependenciesProtocol {
+        return DefaultNetworkDependencies()
+    }
 }

@@ -3,4 +3,22 @@
    uuid = "60E5AB78-0D2E-4356-A404-FECD59C6BFBA"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3690EBC6-AA7D-4982-9732-FBC9C53C2024"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RxUpcomingMovies/NetworkInfrastructure/FeedResults/MoviesResult.swift"
+            startingColumnNumber = "19"
+            endingColumnNumber = "19"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "top"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
